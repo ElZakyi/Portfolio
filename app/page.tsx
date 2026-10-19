@@ -3,7 +3,7 @@ import { projets } from "@/data/projets";
 import Image from "next/image";
 const liens = {
   email: "mailto:zakariaelfoual0@gmail.com",
-  github: "https://github.com/ElZakyi",
+  github: "https://github.com/elfoual-zakaria",
   linkedin: "https://www.linkedin.com/in/zakaria-elfoual-ez2039/",
   cv: "/cv-zakaria-elfoual.pdf",
 };
@@ -93,7 +93,7 @@ export default function Home() {
       <header className="sticky top-0 z-10 border-b border-slate-800 bg-slate-900/95 backdrop-blur">
         <nav className="mx-auto flex max-w-5xl items-center justify-between px-4 py-4">
           <a href="#" className="font-bold text-white">Zakaria Elfoual</a>
-          <div className="hidden gap-6 text-sm text-slate-300 sm:flex">
+          <div className="flex gap-3 text-xs text-slate-300 sm:gap-6 sm:text-sm">
             {sections.map((s) => (
               <a key={s.id} href={`#${s.id}`} className="hover:text-white">{s.label}</a>
             ))}

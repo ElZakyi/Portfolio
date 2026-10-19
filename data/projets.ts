@@ -66,8 +66,8 @@ export const projets: Projet[] = [
     captures: [], // ajoute ici tes captures, ex. "/projets/souk/accueil.png"
     video: undefined, // ex. "/projets/souk/demo.mp4"
     liens: [
-      { label: "Code du frontend", url: "https://github.com/ElZakyi/AppMobile" },
-      { label: "Code du backend", url: "https://github.com/ElZakyi/mobile-backend" },
+      { label: "Code du frontend", url: "https://github.com/elfoual-zakaria/AppMobile" },
+      { label: "Code du backend", url: "https://github.com/elfoual-zakaria/mobile-backend" },
       { label: "Télécharger l'APK", url: "https://expo.dev/accounts/zakariaelfoual/projects/souk/builds/3278c15a-54d9-41ac-bcf9-d4385c895651" },
     ],
   },
